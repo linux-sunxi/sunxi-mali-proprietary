@@ -31,8 +31,8 @@ endif
 
 # Detect mali driver version by talking to the mali kernel driver.
 ifeq ($(VERSION),)
-	bleh := $(shell make -C ../version)
-	VERSION = $(shell ../version/version)
+	bleh := $(shell make -C ../../version)
+	VERSION = $(shell ../../version/version)
 endif
 
 # Sanitize mali driver version, even when passed from the commandline.
