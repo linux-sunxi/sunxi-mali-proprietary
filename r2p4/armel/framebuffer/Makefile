@@ -1,6 +1,6 @@
 include ../../../Makefile.config
 
-install: libUMP.so libMali.so libEGL.so libGLESv1_CM.so libGLESv2.so
+install: libMali.so libEGL.so libGLESv1_CM.so libGLESv2.so
 	$(INSTALL_DATA) $^ $(libdir)
 
 	$(RM) $(libdir)libEGL.so.1 $(libdir)libEGL.so.1.4
