@@ -1,4 +1,4 @@
-include ../../../Makefile.config
+include ../../../../Makefile.config
 
 install: libMali.so libEGL.so libGLESv1_CM.so libGLESv2.so
 	$(INSTALL_DATA) $^ $(libdir)
