@@ -3,3 +3,6 @@ This repository contains the Mali-400 proprietary libraries.
 It is not for standalone use and should instead be used as a submodule
 for the sunxi-mali repository, which includes a build system.
 
+As for the r3p2-01rel1 binaries, these are actually r3p2-01rel2
+binaries, but they should be compatible with even a r3p2-01rel1 kernel
+side.
