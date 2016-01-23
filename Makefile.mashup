@@ -1,6 +1,7 @@
 # Makefile for when everything is bunched together in libMali.so
 
 install: libMali.so
+	$(MKDIR) $(libdir)
 	$(INSTALL_DATA) $^ $(libdir)
 
 	$(RM) $(libdir)libEGL.so.1.4 $(libdir)libEGL.so.1 $(libdir)libEGL.so
